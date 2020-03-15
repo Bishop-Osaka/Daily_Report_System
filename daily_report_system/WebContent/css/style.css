@@ -17,19 +17,12 @@ body {
     padding-left: 3%;
 }
 
+<!--4.3 修正 -->
 h1 {
 	
 	font-size: 24px;
     display: inline;
-    
-<!--
-    width: 94%;
-    padding-top: 17px;
-    padding-left: 3%;
-    font-size: 24px;
-    color: #eeeeee;
-    -->
-}
+    }
 
 h2 {
     font-size: 36px;
@@ -89,6 +82,17 @@ button {
     background-color: #d4edda;
 }
 
+#flush_error {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+<!--3.2 追記 -->
 table#employee_list th {
     width: 30%;
     padding: 10px 2%;
@@ -105,10 +109,13 @@ tr.row1 {
 tr.row0 {
         background-color: #ffffff;
 }
+
+<!--3.3 追記 -->
 select {
     height: 30px;
 }
 
+<!--4.3 追記 -->
 #header_menu {
     width: 57%;
     padding-top: 17px;
@@ -154,10 +161,12 @@ table#report_list .report_action {
     width: 13%;
 }
 
+<!-5.5 追記- -->
 pre {
     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
 
+<!--6 追記 -->
 h3 {
     font-size: larger;
 }
