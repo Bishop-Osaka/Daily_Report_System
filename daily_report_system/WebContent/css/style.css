@@ -5,10 +5,12 @@ body {
     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
 
+
 #header {
     width: 100%;
     height: 70px;
     background-color: #333333;
+   
 }
 
 #content {
@@ -17,16 +19,21 @@ body {
     padding-left: 3%;
 }
 
-<!--4.3 修正 -->
+/* 4.3 修正 font size 24⇒36 */
 h1 {
-	
-	font-size: 24px;
+    font-size: 36px;
     display: inline;
-    }
+    text-align: right ;
+        
+}
+
+
+/*  変更　font size 36⇒24 */
 
 h2 {
-    font-size: 36px;
+    font-size: 24px;
     margin-bottom: 15px;
+    text-align: right;
 }
 
 li {
@@ -92,7 +99,8 @@ button {
     background-color: #f8d7da;
 }
 
-<!--3.2 追記 -->
+/* 3.2 追記 */
+
 table#employee_list th {
     width: 30%;
     padding: 10px 2%;
@@ -110,12 +118,13 @@ tr.row0 {
         background-color: #ffffff;
 }
 
-<!--3.3 追記 -->
+
+/*  3.3 追記 */
 select {
     height: 30px;
 }
 
-<!--4.3 追記 -->
+/*  4.3 追記 */
 #header_menu {
     width: 57%;
     padding-top: 17px;
@@ -139,7 +148,8 @@ h1 a {
     color: #eeeeee;
 }
 
-<!--5.2 追加 -->
+/* 5.2 追記 */
+
 table#report_list th {
     font-weight: bold;
     padding: 10px 2%;
@@ -161,12 +171,13 @@ table#report_list .report_action {
     width: 13%;
 }
 
-<!-5.5 追記- -->
+/*  5.5 追記 */
 pre {
     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
 
-<!--6 追記 -->
+/* 6 追記 */
 h3 {
     font-size: larger;
 }
+
